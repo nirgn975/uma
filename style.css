@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+.story {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.story-title {
+  font-size: 5rem;
+}
+
+.story-description {
+  font-size: 2rem;
+}
+
+.story-text {
+  width: 50%;
+}
+
+.hero-img {
+  width: 50%;
+}
+
+.story:nth-child(n+1) {
+  background-color: #E91E63;
+}
+
+.story:nth-child(n+2) {
+  background-color: #9C27B0;
+}
+
+.story:nth-child(n+3) {
+  background-color: #009688;
+}
+
+.story:nth-child(n+4) {
+  background-color: #CDDC39;
+}
+
+.story:nth-child(n+5) {
+  background-color: #795548;
+}
