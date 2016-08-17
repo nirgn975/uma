@@ -24,6 +24,9 @@ body {
 
 .story-img {
   width: 50%;
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid salmon;
 }
 
 .story:nth-child(n+1) {
