@@ -10,6 +10,10 @@ body {
   height: 100vh;
 }
 
+.story:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
 .story-title {
   font-size: 5rem;
 }
