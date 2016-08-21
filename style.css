@@ -10,6 +10,10 @@ body {
   height: 100vh;
 }
 
+.story:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
 .story-title {
   font-size: 5rem;
 }
@@ -22,26 +26,29 @@ body {
   width: 50%;
 }
 
-.hero-img {
+.story-img {
   width: 50%;
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid salmon;
 }
 
 .story:nth-child(n+1) {
-  background-color: #E91E63;
+  background-color: crimson;
 }
 
 .story:nth-child(n+2) {
-  background-color: #9C27B0;
+  background-color: darkviolet;
 }
 
 .story:nth-child(n+3) {
-  background-color: #009688;
+  background-color: darkcyan;
 }
 
 .story:nth-child(n+4) {
-  background-color: #CDDC39;
+  background-color: khaki;
 }
 
 .story:nth-child(n+5) {
-  background-color: #795548;
+  background-color: saddlebrown;
 }
