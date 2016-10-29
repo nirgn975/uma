@@ -18,6 +18,10 @@ body {
   font-size: 5rem;
 }
 
+.story-smaller-title {
+  font-size: 2.5rem;
+}
+
 .story-description {
   font-size: 2rem;
 }
