@@ -56,3 +56,7 @@ body {
 .story:nth-child(n+5) {
   background-color: saddlebrown;
 }
+
+.ingrownail {
+  width: 600px;
+}
